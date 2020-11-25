@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "rm -rf lib && tsc -p tsconfig.json",
     "storybook": "start-storybook -p 6006 --no-dll --ci",
@@ -19,6 +22,9 @@
     "url": "https://github.com/succie/uis/issues"
   },
   "homepage": "https://github.com/succie/uis#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "@emotion/react": "^11.0.0",
     "@emotion/styled": "^11.0.0"
