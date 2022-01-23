@@ -6,13 +6,14 @@ type Props = {} & React.ComponentPropsWithoutRef<'button'>;
 const StyledButton = styled.button({
   padding: '0.8em 1.6em',
   textTransform: 'uppercase',
-  background: 'none',
-  border: '1px solid red',
+  background: '#ffffff',
   borderRadius: '4px',
-  outline: 'none',
   cursor: 'pointer',
   '&:hover': {
-    background: 'gray',
+    background: '#f0f0f0',
+  },
+  '&:active': {
+    background: '#e0e0e0',
   },
 });
 
