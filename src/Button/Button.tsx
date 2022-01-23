@@ -8,6 +8,7 @@ const StyledButton = styled.button({
   textTransform: 'uppercase',
   background: '#ffffff',
   borderRadius: '4px',
+  border: 'none',
   cursor: 'pointer',
   '&:hover': {
     background: '#f0f0f0',
